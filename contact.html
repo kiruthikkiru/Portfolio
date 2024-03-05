@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="cssfiles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: thikaKiru23@gmail.com</p>
+            <p>Phone: 0777869321</p>
+            <p>Address: peruntheru, Puloly south, Puloly,</p>
+        </section>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <audio autoplay loop>
+        <source src="audios/bubbles-14830.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <button id="changeColorButton">Change Color</button>
+    <script src="jsfiles/script.js"></script>   
+</body>
+</html>

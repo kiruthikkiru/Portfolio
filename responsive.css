@@ -1,0 +1,10 @@
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    main {
+      padding: 10px;
+    }
+  
+    .bio img {
+      width: 150px;
+    }
+  }
